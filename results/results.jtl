@@ -1,0 +1,61 @@
+timeStamp,elapsed,label,responseCode,responseMessage,threadName,dataType,success,failureMessage,bytes,sentBytes,grpThreads,allThreads,URL,Latency,IdleTime,Connect
+1754062151842,494,Login,200,OK,Thread Group 1-2,text,true,,3319,326,2,2,https://www.saucedemo.com/?user-name=standard_user&password=secret_sauce,476,0,186
+1754062151442,894,Login,200,OK,Thread Group 1-1,text,true,,3319,326,2,2,https://www.saucedemo.com/?user-name=standard_user&password=secret_sauce,875,0,586
+1754062152343,45,View Products,404,Not Found,Thread Group 1-1,text,false,,2422,289,3,3,https://www.saucedemo.com/inventory,45,0,0
+1754062152343,44,View Products,404,Not Found,Thread Group 1-2,text,false,,2422,289,3,3,https://www.saucedemo.com/inventory,44,0,0
+1754062152389,43,Checkout Request,404,Not Found,Thread Group 1-2,text,false,,2422,338,3,3,https://www.saucedemo.com/cart.html?first-name=Test&last-name=User&postal-code=44600,43,0,0
+1754062152390,43,Checkout Request,404,Not Found,Thread Group 1-1,text,false,,2422,338,3,3,https://www.saucedemo.com/cart.html?first-name=Test&last-name=User&postal-code=44600,43,0,0
+1754062152434,43,Login,200,OK,Thread Group 1-2,text,true,,3317,326,3,3,https://www.saucedemo.com/?user-name=standard_user&password=secret_sauce,43,0,0
+1754062152434,45,Login,200,OK,Thread Group 1-1,text,true,,3317,326,3,3,https://www.saucedemo.com/?user-name=standard_user&password=secret_sauce,44,0,0
+1754062152342,139,Login,200,OK,Thread Group 1-3,text,true,,3317,326,3,3,https://www.saucedemo.com/?user-name=standard_user&password=secret_sauce,139,0,96
+1754062152478,43,View Products,404,Not Found,Thread Group 1-2,text,false,,2422,289,3,3,https://www.saucedemo.com/inventory,43,0,0
+1754062152480,44,View Products,404,Not Found,Thread Group 1-1,text,false,,2422,289,3,3,https://www.saucedemo.com/inventory,44,0,0
+1754062152483,42,View Products,404,Not Found,Thread Group 1-3,text,false,,2422,289,3,3,https://www.saucedemo.com/inventory,42,0,0
+1754062152522,44,Checkout Request,404,Not Found,Thread Group 1-2,text,false,,2422,338,3,3,https://www.saucedemo.com/cart.html?first-name=Test&last-name=User&postal-code=44600,44,0,0
+1754062152524,44,Checkout Request,404,Not Found,Thread Group 1-1,text,false,,2422,338,3,3,https://www.saucedemo.com/cart.html?first-name=Test&last-name=User&postal-code=44600,44,0,0
+1754062152526,43,Checkout Request,404,Not Found,Thread Group 1-3,text,false,,2422,338,3,3,https://www.saucedemo.com/cart.html?first-name=Test&last-name=User&postal-code=44600,43,0,0
+1754062152570,43,Login,200,OK,Thread Group 1-3,text,true,,3317,326,1,1,https://www.saucedemo.com/?user-name=standard_user&password=secret_sauce,43,0,0
+1754062152615,44,View Products,404,Not Found,Thread Group 1-3,text,false,,2422,289,1,1,https://www.saucedemo.com/inventory,44,0,0
+1754062152661,45,Checkout Request,404,Not Found,Thread Group 1-3,text,false,,2422,338,1,1,https://www.saucedemo.com/cart.html?first-name=Test&last-name=User&postal-code=44600,45,0,0
+1754062152838,138,Login,200,OK,Thread Group 1-4,text,true,,3317,326,1,1,https://www.saucedemo.com/?user-name=standard_user&password=secret_sauce,137,0,94
+1754062152978,45,View Products,404,Not Found,Thread Group 1-4,text,false,,2422,289,1,1,https://www.saucedemo.com/inventory,45,0,0
+1754062153025,46,Checkout Request,404,Not Found,Thread Group 1-4,text,false,,2422,338,1,1,https://www.saucedemo.com/cart.html?first-name=Test&last-name=User&postal-code=44600,45,0,0
+1754062153073,45,Login,200,OK,Thread Group 1-4,text,true,,3317,326,1,1,https://www.saucedemo.com/?user-name=standard_user&password=secret_sauce,45,0,0
+1754062153120,45,View Products,404,Not Found,Thread Group 1-4,text,false,,2422,289,1,1,https://www.saucedemo.com/inventory,45,0,0
+1754062153166,44,Checkout Request,404,Not Found,Thread Group 1-4,text,false,,2422,338,1,1,https://www.saucedemo.com/cart.html?first-name=Test&last-name=User&postal-code=44600,44,0,0
+1754062153338,144,Login,200,OK,Thread Group 1-5,text,true,,3317,326,1,1,https://www.saucedemo.com/?user-name=standard_user&password=secret_sauce,144,0,101
+1754062153483,44,View Products,404,Not Found,Thread Group 1-5,text,false,,2422,289,1,1,https://www.saucedemo.com/inventory,43,0,0
+1754062153528,44,Checkout Request,404,Not Found,Thread Group 1-5,text,false,,2423,338,1,1,https://www.saucedemo.com/cart.html?first-name=Test&last-name=User&postal-code=44600,44,0,0
+1754062153574,45,Login,200,OK,Thread Group 1-5,text,true,,3317,326,1,1,https://www.saucedemo.com/?user-name=standard_user&password=secret_sauce,45,0,0
+1754062153621,45,View Products,404,Not Found,Thread Group 1-5,text,false,,2422,289,1,1,https://www.saucedemo.com/inventory,45,0,0
+1754062153668,46,Checkout Request,404,Not Found,Thread Group 1-5,text,false,,2423,338,1,1,https://www.saucedemo.com/cart.html?first-name=Test&last-name=User&postal-code=44600,45,0,0
+1754062153838,135,Login,200,OK,Thread Group 1-6,text,true,,3317,326,1,1,https://www.saucedemo.com/?user-name=standard_user&password=secret_sauce,135,0,92
+1754062153974,44,View Products,404,Not Found,Thread Group 1-6,text,false,,2422,289,1,1,https://www.saucedemo.com/inventory,43,0,0
+1754062154019,46,Checkout Request,404,Not Found,Thread Group 1-6,text,false,,2422,338,1,1,https://www.saucedemo.com/cart.html?first-name=Test&last-name=User&postal-code=44600,46,0,0
+1754062154067,44,Login,200,OK,Thread Group 1-6,text,true,,3317,326,1,1,https://www.saucedemo.com/?user-name=standard_user&password=secret_sauce,43,0,0
+1754062154112,44,View Products,404,Not Found,Thread Group 1-6,text,false,,2422,289,1,1,https://www.saucedemo.com/inventory,43,0,0
+1754062154157,45,Checkout Request,404,Not Found,Thread Group 1-6,text,false,,2422,338,1,1,https://www.saucedemo.com/cart.html?first-name=Test&last-name=User&postal-code=44600,44,0,0
+1754062154341,154,Login,200,OK,Thread Group 1-7,text,true,,3317,326,1,1,https://www.saucedemo.com/?user-name=standard_user&password=secret_sauce,153,0,108
+1754062154497,46,View Products,404,Not Found,Thread Group 1-7,text,false,,2422,289,1,1,https://www.saucedemo.com/inventory,46,0,0
+1754062154545,46,Checkout Request,404,Not Found,Thread Group 1-7,text,false,,2422,338,1,1,https://www.saucedemo.com/cart.html?first-name=Test&last-name=User&postal-code=44600,45,0,0
+1754062154592,45,Login,200,OK,Thread Group 1-7,text,true,,3317,326,1,1,https://www.saucedemo.com/?user-name=standard_user&password=secret_sauce,44,0,0
+1754062154638,45,View Products,404,Not Found,Thread Group 1-7,text,false,,2422,289,1,1,https://www.saucedemo.com/inventory,44,0,0
+1754062154684,45,Checkout Request,404,Not Found,Thread Group 1-7,text,false,,2422,338,1,1,https://www.saucedemo.com/cart.html?first-name=Test&last-name=User&postal-code=44600,45,0,0
+1754062154836,146,Login,200,OK,Thread Group 1-8,text,true,,3317,326,1,1,https://www.saucedemo.com/?user-name=standard_user&password=secret_sauce,145,0,100
+1754062154983,45,View Products,404,Not Found,Thread Group 1-8,text,false,,2422,289,1,1,https://www.saucedemo.com/inventory,45,0,0
+1754062155029,44,Checkout Request,404,Not Found,Thread Group 1-8,text,false,,2422,338,1,1,https://www.saucedemo.com/cart.html?first-name=Test&last-name=User&postal-code=44600,44,0,0
+1754062155075,45,Login,200,OK,Thread Group 1-8,text,true,,3317,326,1,1,https://www.saucedemo.com/?user-name=standard_user&password=secret_sauce,45,0,0
+1754062155121,45,View Products,404,Not Found,Thread Group 1-8,text,false,,2422,289,1,1,https://www.saucedemo.com/inventory,45,0,0
+1754062155167,45,Checkout Request,404,Not Found,Thread Group 1-8,text,false,,2422,338,1,1,https://www.saucedemo.com/cart.html?first-name=Test&last-name=User&postal-code=44600,45,0,0
+1754062155340,145,Login,200,OK,Thread Group 1-9,text,true,,3317,326,1,1,https://www.saucedemo.com/?user-name=standard_user&password=secret_sauce,145,0,102
+1754062155487,43,View Products,404,Not Found,Thread Group 1-9,text,false,,2422,289,1,1,https://www.saucedemo.com/inventory,43,0,0
+1754062155532,43,Checkout Request,404,Not Found,Thread Group 1-9,text,false,,2422,338,1,1,https://www.saucedemo.com/cart.html?first-name=Test&last-name=User&postal-code=44600,43,0,0
+1754062155576,43,Login,200,OK,Thread Group 1-9,text,true,,3317,326,1,1,https://www.saucedemo.com/?user-name=standard_user&password=secret_sauce,43,0,0
+1754062155621,45,View Products,404,Not Found,Thread Group 1-9,text,false,,2422,289,1,1,https://www.saucedemo.com/inventory,44,0,0
+1754062155667,42,Checkout Request,404,Not Found,Thread Group 1-9,text,false,,2422,338,1,1,https://www.saucedemo.com/cart.html?first-name=Test&last-name=User&postal-code=44600,42,0,0
+1754062155839,146,Login,200,OK,Thread Group 1-10,text,true,,3317,326,1,1,https://www.saucedemo.com/?user-name=standard_user&password=secret_sauce,146,0,104
+1754062155985,46,View Products,404,Not Found,Thread Group 1-10,text,false,,2422,289,1,1,https://www.saucedemo.com/inventory,45,0,0
+1754062156031,43,Checkout Request,404,Not Found,Thread Group 1-10,text,false,,2422,338,1,1,https://www.saucedemo.com/cart.html?first-name=Test&last-name=User&postal-code=44600,43,0,0
+1754062156075,44,Login,200,OK,Thread Group 1-10,text,true,,3317,326,1,1,https://www.saucedemo.com/?user-name=standard_user&password=secret_sauce,43,0,0
+1754062156120,44,View Products,404,Not Found,Thread Group 1-10,text,false,,2422,289,1,1,https://www.saucedemo.com/inventory,43,0,0
+1754062156165,44,Checkout Request,404,Not Found,Thread Group 1-10,text,false,,2422,338,1,1,https://www.saucedemo.com/cart.html?first-name=Test&last-name=User&postal-code=44600,44,0,0
